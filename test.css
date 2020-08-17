@@ -1,0 +1,35 @@
+table{
+    border-collapse: collapse;
+    text-align:center; 
+  }
+  td,th{
+    border: 1px solid black;
+    padding: 10px; 
+  }
+   tbody td:first-child{
+    background:#DCDCDC;
+  }
+  tbody{
+    background:#87CEFA;
+  }
+  tr:nth-child(even) {background: #87CEFA}
+  tr:nth-child(odd) {background: #ADFF2F}
+  tfoot td{
+    font-style:italic;
+    background-color:white;
+  }
+  tr th {
+    background-color:white;
+  }
+  caption {
+  background-color:#DCDCDC;
+   border: 1px solid black;
+   padding: 10px; 
+   font-weight: bold;
+    
+  }
+  
+  
+  
+  
+  
